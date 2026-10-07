@@ -1,0 +1,91 @@
+- generic [ref=e20]:
+  - button [ref=e1242] [cursor=pointer]
+  - generic [ref=e1248]:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic: InvestIQ
+            - button [ref=e1255] [cursor=pointer]:
+              - paragraph [ref=e1257]: 🏠 Home
+            - button [ref=e1259] [cursor=pointer]:
+              - paragraph [ref=e1261]: 📄 IPO Intelligence
+            - button [ref=e1263] [cursor=pointer]:
+              - paragraph [ref=e1265]: 📈 Stock Analyzer
+            - separator [ref=e1268]
+            - button [ref=e1270] [cursor=pointer]:
+              - paragraph [ref=e1272]: 🏠 Back to Home
+  - generic [ref=e25]:
+    - generic [ref=e1275]:
+      - generic [ref=e1279]:
+        - heading "🚀 AI-Powered MF Advisor" [level=2] [ref=e1284]
+        - paragraph [ref=e1289]:
+          - strong [ref=e1290]: AI-Powered Portfolio Allocation & Fund Recommendations
+      - generic [ref=e1295]:
+        - generic [ref=e1301]:
+          - paragraph [ref=e1305]: AI Modules
+          - generic [ref=e1306]: 6+
+        - generic [ref=e1313]:
+          - paragraph [ref=e1317]: Funds Analyzed
+          - generic [ref=e1318]: 25+
+    - separator [ref=e1323]
+    - generic [ref=e1327]:
+      - generic [ref=e1332]: 💰 Investment Profile
+      - generic [ref=e1336]:
+        - generic [ref=e1340]:
+          - generic [ref=e1342]:
+            - paragraph [ref=e1345]: Investment Amount (₹)
+            - generic [ref=e1346]:
+              - spinbutton "Investment Amount (₹)" [ref=e1349]: "10000"
+              - generic [ref=e1350]:
+                - button [ref=e1351] [cursor=pointer]
+                - button [ref=e1354] [cursor=pointer]
+          - generic [ref=e1358]:
+            - paragraph [ref=e1361]: Investment Horizon
+            - generic [ref=e1363]:
+              - generic [ref=e1364]:
+                - generic [ref=e1365]: 3-5 Years
+                - combobox "Selected 3-5 Years. Investment Horizon" [ref=e1367]
+              - img "open" [ref=e1369]
+          - generic [ref=e1372]:
+            - paragraph [ref=e1375]: Investment Goal
+            - generic [ref=e1377]:
+              - generic [ref=e1378]:
+                - generic [ref=e1379]: Wealth Creation
+                - combobox "Selected Wealth Creation. Investment Goal" [ref=e1381]
+              - img "open" [ref=e1383]
+        - generic [ref=e1388]:
+          - generic [ref=e1390]:
+            - paragraph [ref=e1393]: Investment Type
+            - radiogroup "Investment Type" [ref=e1394] [cursor=pointer]:
+              - generic [ref=e1395]:
+                - radio "SIP" [checked]
+                - paragraph [ref=e1400]: SIP
+              - generic [ref=e1401]:
+                - radio "Lump Sum"
+                - paragraph [ref=e1406]: Lump Sum
+          - generic [ref=e1408]:
+            - paragraph [ref=e1411]: Risk Appetite
+            - generic [ref=e1413]:
+              - generic [ref=e1414]:
+                - generic [ref=e1415]: Moderate
+                - combobox "Selected Moderate. Risk Appetite" [ref=e1417]
+              - img "open" [ref=e1419]
+          - generic [ref=e1422]:
+            - paragraph [ref=e1425]: Existing Investor?
+            - radiogroup "Existing Investor?" [ref=e1426] [cursor=pointer]:
+              - generic [ref=e1427]:
+                - radio "Yes"
+                - paragraph [ref=e1432]: "Yes"
+              - generic [ref=e1433]:
+                - radio "No" [checked]
+                - paragraph [ref=e1438]: "No"
+      - generic [ref=e1440]:
+        - paragraph [ref=e1443]: Age (optional)
+        - generic [ref=e1444]:
+          - spinbutton "Age (optional)" [ref=e1447]: "35"
+          - generic [ref=e1448]:
+            - button [ref=e1449] [cursor=pointer]
+            - button [ref=e1452] [cursor=pointer]
+      - button [ref=e1458] [cursor=pointer]:
+        - paragraph [ref=e1460]: 🚀 Generate Strategy

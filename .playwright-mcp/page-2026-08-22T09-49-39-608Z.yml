@@ -1,0 +1,140 @@
+- generic [ref=e20]:
+  - generic [ref=e142]:
+    - generic [ref=e143]: InvestIQ
+    - button [ref=e151] [cursor=pointer]:
+      - paragraph [ref=e153]: 🏠 Home
+    - button [ref=e156] [cursor=pointer]:
+      - paragraph [ref=e158]: 💼 My Portfolio
+    - separator [ref=e162]
+    - button [ref=e165] [cursor=pointer]:
+      - paragraph [ref=e167]: 🏠 Back to Home
+  - generic [ref=e25]:
+    - generic [ref=e170]: 👤 testuser
+    - button [ref=e298] [cursor=pointer]:
+      - paragraph [ref=e300]: Logout
+    - generic [ref=e305]:
+      - generic [ref=e306]: 💼 My Portfolio
+      - generic [ref=e307]: Track, analyze and monitor your investment portfolio.
+    - generic [ref=e311]:
+      - generic [ref=e312]:
+        - generic [ref=e313]: Total Invested
+        - generic [ref=e314]: ₹35,000
+      - generic [ref=e315]:
+        - generic [ref=e316]: Current Value
+        - generic [ref=e317]: ₹23,020
+      - generic [ref=e318]:
+        - generic [ref=e319]: Total P&L
+        - generic [ref=e320]: ₹-11,980
+      - generic [ref=e321]:
+        - generic [ref=e322]: Return
+        - generic [ref=e323]: "-34.23%"
+      - generic [ref=e324]:
+        - generic [ref=e325]: Holdings
+        - generic [ref=e326]: "1"
+    - group [ref=e328]:
+      - paragraph [ref=e332] [cursor=pointer]: ➕ Add Holding
+      - generic [ref=e384]:
+        - generic [ref=e385]:
+          - generic [ref=e389]:
+            - generic [ref=e391]:
+              - paragraph [ref=e394]: Stock Symbol
+              - textbox "Stock Symbol" [ref=e397]:
+                - /placeholder: e.g. TCS, INFY, RELIANCE
+            - generic [ref=e399]:
+              - paragraph [ref=e402]: Stock Name
+              - textbox "Stock Name" [ref=e405]:
+                - /placeholder: e.g. Tata Consultancy Services
+          - generic [ref=e409]:
+            - generic [ref=e411]:
+              - paragraph [ref=e414]: Buy Price (₹)
+              - generic [ref=e415]:
+                - spinbutton "Buy Price (₹)" [ref=e418]: "0.01"
+                - generic [ref=e419]:
+                  - button [disabled] [ref=e420]
+                  - button [ref=e423] [cursor=pointer]
+            - generic [ref=e427]:
+              - paragraph [ref=e430]: Quantity
+              - generic [ref=e431]:
+                - spinbutton "Quantity" [ref=e434]: "1"
+                - generic [ref=e435]:
+                  - button [disabled] [ref=e436]
+                  - button [ref=e439] [cursor=pointer]
+        - generic [ref=e443]:
+          - paragraph [ref=e446]: Buy Date
+          - textbox "Select a date." [ref=e450]:
+            - /placeholder: YYYY/MM/DD
+            - text: 2026/08/22
+          - paragraph: Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+          - paragraph: Selected date is 2026/08/22. Select the second date.
+        - button [active] [ref=e454] [cursor=pointer]:
+          - paragraph [ref=e456]: Add Holding
+    - generic [ref=e457]: 1 Holdings
+    - generic [ref=e464]:
+      - generic [ref=e466]:
+        - generic [ref=e467]: TCS
+        - generic [ref=e468]: Tata Consultancy Services
+        - generic [ref=e469]: 2026-08-22
+      - generic [ref=e470]:
+        - generic [ref=e471]:
+          - strong [ref=e472]: "Buy:"
+          - text: ₹3,500.00
+        - generic [ref=e473]:
+          - strong [ref=e474]: "Qty:"
+          - text: "10"
+        - generic [ref=e475]:
+          - strong [ref=e476]: "Current:"
+          - text: ₹2,302.00
+        - generic [ref=e477]:
+          - strong [ref=e478]: "P&L:"
+          - text: ₹-11,980
+        - generic [ref=e479]:
+          - strong [ref=e480]: "P&L %:"
+          - text: "-34.23%"
+    - generic [ref=e481]:
+      - button [ref=e488] [cursor=pointer]:
+        - paragraph [ref=e490]: Edit
+      - button [ref=e497] [cursor=pointer]:
+        - paragraph [ref=e499]: Delete
+    - generic [ref=e504]: 📋 Portfolio Insights
+    - generic [ref=e509]:
+      - generic [ref=e515]:
+        - paragraph [ref=e519]: Top Performer
+        - generic [ref=e520]: TCS
+        - generic [ref=e522]: +₹-11,980
+      - generic [ref=e532]:
+        - paragraph [ref=e536]: Worst Performer
+        - generic [ref=e537]: TCS
+        - generic [ref=e539]: ₹-11,980
+      - generic [ref=e549]:
+        - paragraph [ref=e553]: Largest Holding
+        - generic [ref=e554]: TCS
+        - generic [ref=e556]: 100.0%
+    - generic [ref=e561]:
+      - generic [ref=e567]:
+        - paragraph [ref=e571]: Profitable
+        - generic [ref=e572]: "0"
+      - generic [ref=e579]:
+        - paragraph [ref=e583]: Loss-Making
+        - generic [ref=e584]: "1"
+      - generic [ref=e591]:
+        - paragraph [ref=e595]: Holdings
+        - generic [ref=e596]: "1"
+    - generic [ref=e601]:
+      - generic [ref=e602]:
+        - generic [ref=e603]: 🩺 Portfolio Health Score
+        - generic [ref=e604]: Moderate
+      - generic [ref=e605]:
+        - generic [ref=e606]: "50"
+        - generic [ref=e607]: / 100
+    - paragraph [ref=e614]:
+      - strong [ref=e615]: Areas to Improve
+    - generic [ref=e616]: ⚠ Add more holdings to reduce concentration risk
+    - generic [ref=e620]: ⚠ Reduce single-stock concentration (max weight > 35%)
+    - generic [ref=e624]: ⚠ Top 5 holdings represent over 70% of portfolio
+    - generic [ref=e628]: ⚠ Significant portfolio drawdown detected
+    - generic [ref=e635]:
+      - generic [ref=e636]: Market Data
+      - generic [ref=e639]:
+        - text: Current portfolio values based on available market data.
+        - strong [ref=e640]: 1/1
+        - text: holdings with live price updates.

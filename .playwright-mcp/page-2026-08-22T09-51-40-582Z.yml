@@ -1,0 +1,59 @@
+- generic [ref=e20]:
+  - button [ref=e1236] [cursor=pointer]
+  - generic [ref=e807]:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic: InvestIQ
+            - button [ref=e1053] [cursor=pointer]:
+              - paragraph [ref=e1055]: 🏠 Home
+            - button [ref=e1058] [cursor=pointer]:
+              - paragraph [ref=e1060]: 📄 IPO Intelligence
+            - button [ref=e1063] [cursor=pointer]:
+              - paragraph [ref=e1065]: 📈 Stock Analyzer
+            - separator [ref=e1069]
+            - button [ref=e1072] [cursor=pointer]:
+              - paragraph [ref=e1074]: 🏠 Back to Home
+  - generic [ref=e25]:
+    - generic [ref=e1075]:
+      - generic [ref=e1079]:
+        - heading "🚀 AI-Powered Stock Analyzer" [level=2] [ref=e1084]
+        - paragraph [ref=e1089]:
+          - strong [ref=e1090]: Analyze Stocks with AI-Powered Insights
+      - generic [ref=e1095]:
+        - generic [ref=e1101]:
+          - paragraph [ref=e1105]: AI Modules
+          - generic [ref=e1106]: 4+
+        - generic [ref=e1113]:
+          - paragraph [ref=e1117]: AI Insights
+          - generic [ref=e1118]: 30+
+    - separator [ref=e1123]
+    - generic [ref=e1127]:
+      - textbox "Enter NSE Stock Symbol" [ref=e1136]:
+        - /placeholder: e.g. RELIANCE, TCS, INFY, HDFCBANK
+      - button [ref=e1143] [cursor=pointer]:
+        - paragraph [ref=e1145]: 🔍 Analyze
+    - generic [ref=e1146]: "Popular:"
+    - generic [ref=e1150]:
+      - button [ref=e1157] [cursor=pointer]:
+        - paragraph [ref=e1159]: RELIANCE
+      - button [ref=e1166] [cursor=pointer]:
+        - paragraph [ref=e1168]: TCS
+      - button [ref=e1175] [cursor=pointer]:
+        - paragraph [ref=e1177]: HDFCBANK
+      - button [ref=e1184] [cursor=pointer]:
+        - paragraph [ref=e1186]: INFY
+      - button [ref=e1193] [cursor=pointer]:
+        - paragraph [ref=e1195]: ICICIBANK
+      - button [ref=e1202] [cursor=pointer]:
+        - paragraph [ref=e1204]: SBIN
+      - button [ref=e1211] [cursor=pointer]:
+        - paragraph [ref=e1213]: WIPRO
+      - button [ref=e1220] [cursor=pointer]:
+        - paragraph [ref=e1222]: ADANIENT
+    - separator [ref=e1226]
+    - generic [ref=e1230]:
+      - generic [ref=e1231]: 📊
+      - generic [ref=e1232]: Enter any NSE stock symbol above
+      - generic [ref=e1233]: Get live price, technical indicators, fundamental analysis and AI buy/sell signals

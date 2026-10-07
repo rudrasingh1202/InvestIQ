@@ -1,0 +1,58 @@
+- generic [ref=f1e25]:
+  - generic [ref=f1e26]:
+    - generic [ref=f1e27]: InvestIQ
+    - button [ref=f1e46] [cursor=pointer]:
+      - paragraph [ref=f1e48]: 💼 My Portfolio
+  - generic [ref=f1e55]:
+    - generic [ref=f1e56]: InvestIQ
+    - generic [ref=f1e59]: AI Powered Investment Intelligence Platform
+    - generic [ref=f1e60]:
+      - generic [ref=f1e61]:
+        - generic [ref=f1e62]: 300+
+        - generic [ref=f1e63]: Pages Analyzed
+      - generic [ref=f1e64]:
+        - generic [ref=f1e65]: 5+
+        - generic [ref=f1e66]: AI Modules
+      - generic [ref=f1e67]:
+        - generic [ref=f1e68]: RAG
+        - generic [ref=f1e69]: Powered QnA
+      - generic [ref=f1e70]:
+        - generic [ref=f1e71]: Live
+        - generic [ref=f1e72]: Market Data
+    - generic [ref=f1e73]: Modules
+    - generic [ref=f1e74]:
+      - generic [ref=f1e75]:
+        - generic [ref=f1e76]:
+          - generic [ref=f1e77]: Ready
+          - generic [ref=f1e78]: 📄 IPO Intelligence
+        - list [ref=f1e79]:
+          - listitem [ref=f1e80]: AI DRHP/RHP analysis
+          - listitem [ref=f1e81]: Risk scoring
+          - listitem [ref=f1e82]: Financial analysis
+          - listitem [ref=f1e83]: Listing gain prediction
+      - generic [ref=f1e84]:
+        - generic [ref=f1e85]:
+          - generic [ref=f1e86]: Ready
+          - generic [ref=f1e87]: 📈 Stock Analyzer
+        - list [ref=f1e88]:
+          - listitem [ref=f1e89]: Live NSE/BSE analysis
+          - listitem [ref=f1e90]: Technical indicators
+          - listitem [ref=f1e91]: AI Buy/Sell signals
+      - generic [ref=f1e92]:
+        - generic [ref=f1e93]:
+          - generic [ref=f1e94]: Ready
+          - generic [ref=f1e95]: 💰 MF Advisor
+        - list [ref=f1e96]:
+          - listitem [ref=f1e97]: AI mutual fund recommendations
+          - listitem [ref=f1e98]: Goal based investing
+          - listitem [ref=f1e99]: Portfolio allocation
+  - generic [ref=f1e103]:
+    - button [ref=f1e110] [cursor=pointer]:
+      - paragraph [ref=f1e112]: Open IPO Intelligence
+    - button [ref=f1e119] [cursor=pointer]:
+      - paragraph [ref=f1e121]: Open Stock Analyzer
+    - button [ref=f1e128] [cursor=pointer]:
+      - paragraph [ref=f1e130]: Open MF Advisor
+  - generic [ref=f1e133]:
+    - strong [ref=f1e134]: InvestIQ
+    - text: • AI Powered Investment Intelligence Platform Not Financial Advice

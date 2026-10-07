@@ -1,0 +1,79 @@
+- generic [ref=e20]:
+  - generic [ref=e800]:
+    - button [ref=e803] [cursor=pointer]
+    - generic [ref=e811]:
+      - generic [ref=e813]:
+        - button "View fullscreen"
+        - img "0" [ref=e816]
+      - heading "InvestIQ" [level=1] [ref=e820]
+      - paragraph [ref=e824]: AI-Powered IPO Intelligence
+      - heading "📄 Upload Document" [level=3] [ref=e828]
+      - generic [ref=e830]:
+        - paragraph [ref=e833]: Upload a DRHP/RHP PDF
+        - button "Upload a DRHP/RHP PDF" [ref=e834] [cursor=pointer]:
+          - generic [ref=e836]:
+            - generic [ref=e837]: Drag and drop file here
+            - generic [ref=e838]: Limit 200MB per file • PDF
+          - button "Browse files" [ref=e839]
+      - button [ref=e842] [cursor=pointer]:
+        - paragraph [ref=e844]: Analyze
+      - separator [ref=e848]
+      - alert [ref=e851]:
+        - generic [ref=e855]:
+          - paragraph [ref=e856]:
+            - text: 💡
+            - strong [ref=e857]: Quick Tip
+          - paragraph [ref=e858]: Upload any DRHP or RHP PDF to get instant AI-powered analysis including risk score, financial health, and listing gain predictions.
+      - button [ref=e861] [cursor=pointer]:
+        - paragraph [ref=e863]: 📈 Stock Analyzer
+      - button [ref=e866] [cursor=pointer]:
+        - paragraph [ref=e868]: 💰 MF Advisor
+      - separator [ref=e872]
+      - button [ref=e875] [cursor=pointer]:
+        - paragraph [ref=e877]: 🏠 Back to Home
+  - generic [ref=e25]:
+    - generic [ref=e880]:
+      - generic [ref=e884]:
+        - heading "🚀 AI-Powered IPO Intelligence" [level=2] [ref=e889]
+        - paragraph [ref=e894]:
+          - strong [ref=e895]: Upload DRHP/RHP → Extract → Analyze → Decide
+      - generic [ref=e900]:
+        - generic [ref=e906]:
+          - paragraph [ref=e910]: AI Modules
+          - generic [ref=e911]: 5+
+        - generic [ref=e918]:
+          - paragraph [ref=e922]: Pages
+          - generic [ref=e923]: 300+
+        - generic [ref=e930]:
+          - paragraph [ref=e934]: Engine
+          - generic [ref=e935]: RAG
+    - separator [ref=e940]
+    - generic [ref=e941]:
+      - alert [ref=e948]:
+        - paragraph [ref=e953]: 📊 Financial Analysis
+      - alert [ref=e960]:
+        - paragraph [ref=e965]: ⚠️ Risk Scoring
+      - alert [ref=e972]:
+        - paragraph [ref=e977]: 📈 Listing Gain
+      - alert [ref=e984]:
+        - paragraph [ref=e989]: 🤖 Ask DRHP AI
+      - alert [ref=e996]:
+        - paragraph [ref=e1001]: ✅ Apply/Avoid
+    - separator [ref=e1004]
+    - generic [ref=e1006]:
+      - tablist [ref=e1008]:
+        - tab [selected] [ref=e1009] [cursor=pointer]:
+          - paragraph [ref=e1011]: Overview
+        - tab [ref=e1012] [cursor=pointer]:
+          - paragraph [ref=e1014]: Financials
+        - tab [ref=e1015] [cursor=pointer]:
+          - paragraph [ref=e1017]: Risk Analysis
+        - tab [ref=e1018] [cursor=pointer]:
+          - paragraph [ref=e1020]: Verdict
+        - tab [ref=e1021] [cursor=pointer]:
+          - paragraph [ref=e1023]: Ask DRHP
+      - tabpanel "Overview" [ref=e1026]:
+        - generic [ref=e1029]:
+          - heading "Overview" [level=3] [ref=e1034]
+          - alert [ref=e1038]:
+            - paragraph [ref=e1043]: Upload a DRHP/RHP PDF and click Analyze to see details.

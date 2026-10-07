@@ -1,0 +1,36 @@
+- generic [ref=e20]:
+  - generic [ref=e142]:
+    - generic [ref=e143]: InvestIQ
+    - button [ref=e151] [cursor=pointer]:
+      - paragraph [ref=e153]: 🏠 Home
+    - button [ref=e156] [cursor=pointer]:
+      - paragraph [ref=e158]: 💼 My Portfolio
+    - separator [ref=e162]
+    - button [ref=e165] [cursor=pointer]:
+      - paragraph [ref=e167]: 🏠 Back to Home
+  - generic [ref=e25]:
+    - generic [ref=e174]:
+      - generic [ref=e641]: 💼
+      - generic [ref=e643]: My Portfolio
+      - generic [ref=e644]: Track your investments. Monitor performance. Understand your portfolio.
+    - generic [ref=e646]:
+      - tablist [ref=e648]:
+        - tab [selected] [ref=e649] [cursor=pointer]:
+          - paragraph [ref=e651]: Login
+        - tab [ref=e652] [cursor=pointer]:
+          - paragraph [ref=e654]: Register
+      - tabpanel "Login" [ref=e657]:
+        - generic [ref=e664]:
+          - generic [ref=e666]:
+            - paragraph [ref=e669]: Username
+            - textbox "Username" [ref=e672]:
+              - /placeholder: ""
+          - generic [ref=e674]:
+            - paragraph [ref=e677]: Password
+            - generic [ref=e679]:
+              - textbox "Password" [ref=e680]:
+                - /placeholder: ""
+              - button "Show password text" [ref=e681] [cursor=pointer]:
+                - img "Show password text" [ref=e682]
+          - button [ref=e687] [cursor=pointer]:
+            - paragraph [ref=e689]: Login

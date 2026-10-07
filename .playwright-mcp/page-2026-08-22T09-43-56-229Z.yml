@@ -1,0 +1,9 @@
+- generic [ref=e142]:
+  - generic [ref=e143]: InvestIQ
+  - button [ref=e151] [cursor=pointer]:
+    - paragraph [ref=e153]: 🏠 Home
+  - button [ref=e156] [cursor=pointer]:
+    - paragraph [ref=e158]: 💼 My Portfolio
+  - separator [ref=e162]
+  - button [ref=e165] [cursor=pointer]:
+    - paragraph [ref=e167]: 🏠 Back to Home

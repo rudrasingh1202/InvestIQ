@@ -1,0 +1,70 @@
+- generic [ref=e20]:
+  - generic [ref=e142]:
+    - generic [ref=e143]: InvestIQ
+    - button [ref=e151] [cursor=pointer]:
+      - paragraph [ref=e153]: 🏠 Home
+    - button [ref=e156] [cursor=pointer]:
+      - paragraph [ref=e158]: 💼 My Portfolio
+    - separator [ref=e162]
+    - button [ref=e165] [cursor=pointer]:
+      - paragraph [ref=e167]: 🏠 Back to Home
+  - generic [ref=e25]:
+    - generic [ref=e170]: 👤 testuser
+    - button [ref=e298] [cursor=pointer]:
+      - paragraph [ref=e300]: Logout
+    - generic [ref=e305]:
+      - generic [ref=e306]: 💼 My Portfolio
+      - generic [ref=e307]: Track, analyze and monitor your investment portfolio.
+    - generic [ref=e311]:
+      - generic [ref=e312]:
+        - generic [ref=e313]: Total Invested
+        - generic [ref=e314]: ₹0
+      - generic [ref=e315]:
+        - generic [ref=e316]: Current Value
+        - generic [ref=e317]: ₹0
+      - generic [ref=e318]:
+        - generic [ref=e319]: Total P&L
+        - generic [ref=e320]: +₹0
+      - generic [ref=e321]:
+        - generic [ref=e322]: Return
+        - generic [ref=e323]: +0.00%
+      - generic [ref=e324]:
+        - generic [ref=e325]: Holdings
+        - generic [ref=e326]: "0"
+    - group [ref=e328]:
+      - paragraph [ref=e332] [cursor=pointer]: ➕ Add Holding
+      - generic [ref=e384]:
+        - generic [ref=e385]:
+          - generic [ref=e389]:
+            - generic [ref=e391]:
+              - paragraph [ref=e394]: Stock Symbol
+              - textbox "Stock Symbol" [ref=e397]:
+                - /placeholder: e.g. TCS, INFY, RELIANCE
+            - generic [ref=e399]:
+              - paragraph [ref=e402]: Stock Name
+              - textbox "Stock Name" [ref=e405]:
+                - /placeholder: e.g. Tata Consultancy Services
+          - generic [ref=e409]:
+            - generic [ref=e411]:
+              - paragraph [ref=e414]: Buy Price (₹)
+              - generic [ref=e415]:
+                - spinbutton "Buy Price (₹)" [ref=e418]: "0.01"
+                - generic [ref=e419]:
+                  - button [disabled] [ref=e420]
+                  - button [ref=e423] [cursor=pointer]
+            - generic [ref=e427]:
+              - paragraph [ref=e430]: Quantity
+              - generic [ref=e431]:
+                - spinbutton "Quantity" [ref=e434]: "1"
+                - generic [ref=e435]:
+                  - button [disabled] [ref=e436]
+                  - button [ref=e439] [cursor=pointer]
+        - generic [ref=e443]:
+          - paragraph [ref=e446]: Buy Date
+          - textbox "Select a date." [ref=e450]:
+            - /placeholder: YYYY/MM/DD
+            - text: 2026/08/22
+          - paragraph: Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+          - paragraph: Selected date is 2026/08/22. Select the second date.
+        - button [active] [ref=e454] [cursor=pointer]:
+          - paragraph [ref=e456]: Add Holding

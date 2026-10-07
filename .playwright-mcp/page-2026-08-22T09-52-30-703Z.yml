@@ -1,0 +1,8 @@
+- banner [ref=f1e2]:
+  - generic [ref=f1e4]:
+    - generic [ref=f1e6]:
+      - img "Running..." [ref=f1e7]
+      - generic [ref=f1e8]: Running...
+      - button "Stop" [ref=f1e10] [cursor=pointer]
+    - button "Deploy" [ref=f1e12] [cursor=pointer]
+    - button [ref=f1e16] [cursor=pointer]
