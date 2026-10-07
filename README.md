@@ -14,7 +14,7 @@ The platform combines **financial data, fundamental analysis, technical analysis
 
 InvestIQ is built around four major investment workflows:
 
-
+```text
                     ┌───────────────────────┐
                     │       InvestIQ         │
                     │ Investment Intelligence│
